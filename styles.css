@@ -11,6 +11,9 @@ body {
 }
 .banner {
   background-color: #fff8f3;
+  background-image: url('images/developer.png'), url("images/header_bg.png");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
   padding-top: 50px;
 }
 nav {
@@ -46,10 +49,64 @@ nav ul li a {
   color: #ffffff;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 nav ul li button {
   padding: 18px 35px;
-  cursor: pointer;
   font-size: 20px;
   font-weight: bold;
+}
+nav ul li button:hover {
+  background-color: #e85c00;
+}
+#hero {
+  margin: 47px 38px 0px 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .hero-text {
+  max-width: 585px;
+}
+#hero .hero-text h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+  width: 177px;
+  text-align: justify;
+}
+#hero .hero-text h1 {
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+#hero .hero-text p {
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+#btn1 {
+  padding: 18.5px 17px;
+}
+#btn1:hover {
+  background-color: #e85c00;
+}
+#btn2 {
+  color: #fd6e0a;
+  background-color: #fff8f3;
+  padding: 18.5px 24px;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btn2:hover {
+  background-color: #ffe6d9;
+  color: #e85c00;
+}
+#hero .hero-image img {
+  max-width: 585px;
+  vertical-align: bottom;
 }
