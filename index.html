@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header class="banner">
@@ -13,7 +14,7 @@
         <ul>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#blog">Blog</a></li>
-          <li><button class="btn">Hire Me</button></li>
+          <li><button class="btn"><i class="fa-solid fa-handshake-angle"></i>  Hire Me</button></li>
         </ul>
       </nav>
       <section id="hero">
@@ -25,8 +26,8 @@
             he. Morning because as to society behaved moments.
           </p>
           <div>
-            <button class="btn" id="btn1">Download CV</button>
-            <button id="btn2">Contact</button>
+            <a class="btn" id="btn1" href="#download-btn"><i class="fa-solid fa-angles-down"></i> Download CV</a>
+            <button id="btn2"><i class="fa-solid fa-phone-volume"></i>  Contact</button>
           </div>
         </div>
         <div class="hero-image">
@@ -147,7 +148,6 @@
                 specializing in software development and system architecture.
               </p>
             </div>
-            <hr />
           </div>
           <div class="experience">
             <h2 class="title">Experience</h2>
@@ -177,11 +177,30 @@
                 Node.js and Express.
               </p>
             </div>
-            <hr />
           </div>
         </article>
+        <button class="btn" id="download-btn"><i class="fa-solid fa-angles-down"></i> Download CV</button>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <section id="footer">
+        <div class="socials">
+          <h2>Connect with me</h2>
+          <p>Please fill out the form to connect with me, or contact me through social media between 5:00 to 7:00 PM.</p>
+            <a href="facebook.com"><img src="images/icons/facebook.png" alt="Facebook Icon" /></a>
+            <a href="twitter.com"><img src="images/icons/twitter.png" alt="Twitter Icon" /></a>
+            <a href="instagram.com"><img src="images/icons/insta.png" alt="Instagram Icon" /></a>
+        </div>
+        <div class="contact-form">
+          <h2>Let's Contact Me</h2>
+          <form >
+          <input type="text" placeholder="Your Name" id="name"/>
+          <input type="email" placeholder="Your Email" id="email"/>
+          <textarea rows="10" placeholder="Your Message" id="message"></textarea>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
+      </section>
+    </footer>
   </body>
 </html>
