@@ -188,3 +188,58 @@ nav ul li button:hover {
   color: #757575;
   line-height: 28px;
 }
+#resume {
+  padding-top: 130px;
+  background-color: #ffffff;
+}
+#resume .resume-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 113px auto 0;
+  display: flex;
+  gap: 24px;
+}
+#resume .resume-container .education,
+#resume .resume-container .experience {
+  max-width: 540px;
+}
+#resume .resume-container .education .title,
+#resume .resume-container .experience .title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 30px;
+}
+#resume .resume-container .education .resume-card,
+#resume .resume-container .experience .resume-card {
+  max-width: 511px;
+  margin-right: 47px;
+  margin-bottom: 30px;
+}
+#resume .resume-container .education h3,
+#resume .resume-container .experience h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 10px;
+}
+#resume .resume-container .education .sub-title,
+#resume .resume-container .experience .sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+#resume .resume-container .education .resume-text,
+#resume .resume-container .experience .resume-text {
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+#resume .resume-container hr {
+  border: none;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 20px 0;
+}
